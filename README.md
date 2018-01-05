@@ -3,7 +3,7 @@
 ### Installation 
 1. **Français**:
 
-  Téléchargez l'archive zip de ce code, et extrayez le contenu, puis naviguez dans le dossier crée.
+  Téléchargez l'archive zip de ce code, et extrayez le contenu, puis naviguez dans le dossier crée. Créez ensuite a la racine de ce dossier un dossier nommé *img*.
 
   Tout d'abord, parlons de l'organisation du dossier *img*. Dans ce dernier, il vous faut placer vos images selons leurs catégories:
 
@@ -38,7 +38,7 @@
 
 2. **English**:
 
-  Download this code as an archive, and extract the data. Then navigate to the folder.
+  Download this code as an archive, and extract the data. Then navigate to the folder. Then create an *img* folder at the root of the extracted folder.
 
   First off, let me introduce the organisation of the *img* folder. In it, you must follow strict guidelines for the generation to be succesful:
 
