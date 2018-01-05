@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Portfolio</title>
+
+<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+<script type="text/javascript" src="json/data.json"></script>
+<script type="text/javascript" src="json/misc.json"></script>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>
+<span id="username"></span>
+</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+</div>
+
+<div id="myGrid" class="row">
+
+</div>
+
+</div>
+
+<div id="myModal" class="modal">
+  <span onclick="closeModal()" class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="imageCaption"></div>
+</div>
+
+<script src="lib/jquery.js"></script>
+<script src="js/dataManipulation.js"></script>
+<script src="js/portfolio.js"></script>
+
+</body>
+</html>
