@@ -19,6 +19,12 @@ function closeModal() {
   $("#myModal").hide();
 }
 
+$(document).click(function(event) {
+  if (!$(event.target).closest(".modal-content,.content").length) {
+    closeModal()
+  }
+});
+
 $(document).ready(function() {
   $("#username").html(misc.name);
   loadData();
