@@ -1,6 +1,6 @@
 ## Automatic Portfolio Generator ##
 ---
-### Installation ###
+### Installation 
 1. **Français**:
 
   Téléchargez l'archive zip de ce code, et extrayez le contenu, puis naviguez dans le dossier crée.
